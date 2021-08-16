@@ -130,7 +130,7 @@ namespace EX07SelectionIfElse
 
             Console.WriteLine("Indtast hvor meget dit brev vejer i gram.");
             int gram = int.Parse(Console.ReadLine());
-            int price = 0;
+            int price;
             
             if (gram < 20)
             {
